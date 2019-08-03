@@ -1,0 +1,112 @@
+{
+  "faq": {
+    "count": 3,
+    "items": [
+      {
+        "id": 1,
+        "quadrant_name":"人物",
+        "quadrant_type": 1,
+        "quadrant_description":"我是一个描述内容1",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 2,
+        "quadrant_name":"地点",
+        "quadrant_type": 2,
+        "quadrant_description":"我是一个描述内容2",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 3,
+        "quadrant_name":"时间",
+        "quadrant_type": 1,
+        "quadrant_description":"我是一个描述内容3",
+        "create_time": 1507530061442
+      }
+    ]
+  },
+  "item": {
+    "count": 3,
+    "items": [
+      {
+        "id": 1,
+        "quadrant_info_id": 1,
+        "item_name":"学生",
+        "item_description":"我是一个描述内容1",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 2,
+        "quadrant_info_id": 1,
+        "item_name":"老师",
+        "item_description":"我是一个描述内容1",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 3,
+        "quadrant_info_id": 1,
+        "item_name":"工人",
+        "item_description":"我是一个描述内容1",
+        "create_time": 1507530061442
+      }
+    ]
+  },
+  "derivation": {
+    "count": 3,
+    "items": [
+      {
+        "id": 1,
+        "quadrant_info_id": 1,
+        "item_info_id": 1,
+        "derivation_name": "优秀的学生",
+        "derivation_type": 1,
+        "derivation_description":"我是一个描述内容1",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 2,
+        "quadrant_info_id": 1,
+        "item_info_id": 1,
+        "derivation_name": "暴怒的学生",
+        "derivation_type": 1,
+        "derivation_description":"我是一个描述内容2",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 3,
+        "quadrant_info_id": 1,
+        "item_info_id": -1,
+        "derivation_name": "有病的学生",
+        "derivation_type": 0,
+        "derivation_description":"我是一个描述内容3",
+        "create_time": 1507530061442
+      }
+    ]
+  },
+  "policy": {
+    "count": 3,
+    "items": [
+      {
+        "id": 1,
+        "policy_name": "策略1",
+        "policy_description":"我是一个描述内容1",
+        "quadrant_ids": "1,2",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 2,
+        "policy_name": "策略2",
+        "policy_description":"我是一个描述内容2",
+        "quadrant_ids": "1,2,3",
+        "create_time": 1507530061442
+      },
+      {
+        "id": 3,
+        "policy_name": "策略3",
+        "policy_description":"我是一个描述内容3",
+        "quadrant_ids": "1,3",
+        "create_time": 1507530061442
+      }
+    ]
+  }
+}

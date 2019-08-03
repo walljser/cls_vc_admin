@@ -1,0 +1,46 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+      "plugins": [
+        "add-module-exports",
+        "syntax-async-functions",
+        "transform-regenerator",
+        "dynamic-import-webpack",
+        "transform-vue-jsx"
+      ],
+      "comments": false
+    },
+    "test": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+      "plugins": [
+        "add-module-exports",
+        "syntax-async-functions",
+        "transform-regenerator",
+        "dynamic-import-webpack",
+        "transform-vue-jsx"
+      ],
+      "comments": false
+    },
+    "production": {
+      "presets": [
+        "es2015",
+        "stage-0"
+      ],
+      "plugins": [
+        "add-module-exports",
+        "syntax-async-functions",
+        "transform-regenerator",
+        "dynamic-import-webpack",
+        "transform-vue-jsx"
+      ],
+      "comments": false
+    }
+  }
+}
